@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "recursive_pimp_slap"
-    gem.summary = %Q{TODO: one-line summary of your gem}
+    gem.summary = %Q{AKA recursive_symbolize_keys}
     gem.description = %Q{AKA recursive_symbolize_keys}
     gem.email = "james@marginleft.com"
     gem.homepage = "http://github.com/jamesdaniels/recursive_pimp_slap"
