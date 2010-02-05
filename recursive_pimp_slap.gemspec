@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/recursive_pimp_slap.rb",
+     "recursive_pimp_slap.gemspec",
      "spec/recursive_pimp_slap_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
