@@ -1,6 +1,10 @@
-= recursive_pimp_slap
+= Recursive Pimp Slap
 
-Description goes here.
+  {'a' => 2, 'b' => {'a' => 2, 'b' => ['a', 'b', {'a' => 2}]}}.recursive_symbolize_keys
+
+returns:
+
+  {:b=>{:b=>["a", "b", {:a=>2}], :a=>2}, :a=>2}
 
 == Note on Patches/Pull Requests
  
